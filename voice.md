@@ -120,38 +120,55 @@ The agent proposes a voice that serves THIS story, writes exemplar
 passages, and calibrates against them throughout drafting.
 
 ### Tone
-<!-- Generated during foundation. Examples:
-     "Mythic and weighty, like stone tablets being read aloud."
-     "Warm, slightly breathless, like a traveler telling stories by firelight."
-     "Spare and cold. Sentences like knife cuts." -->
+Dry, grounded, and visceral. Horror that doesn't announce itself as horror. The narrator observes without editorializing. The wrongness accumulates through specificity, not through adjectives. Dark comedy is present — Dylan's internal voice is wry — but it never softens what's actually happening.
 
 ### Sentence Rhythm
-<!-- Generated during foundation. Not rules -- tendencies.
-     "Long sentences for worldbuilding, short for violence."
-     "Dialogue is clipped. Narration flows." -->
+Short sentences for physical experience, paralysis, panic. Longer sentences when the mind tries to reason its way through something unreasonable. Fragments are earned — they land when the character's cognition breaks. Dylan's POV runs shorter and punchier. Irina's runs clipped and diagnostic. Xi Pei's runs functional, process-oriented.
 
 ### Vocabulary Register
-<!-- Generated during foundation. The word-hoard for this world.
-     What does this world SOUND like? Anglo-Saxon blunt? Latinate
-     baroque? Colloquial modern? A mix? -->
+Colloquial and precise. No baroque ornamentation. The characters describe the incomprehensible in whatever human terms are closest — "psychedelic octopus," "the wiring had been cut," "injected with panic and calm at the same time." The gap between human vocabulary and alien reality is part of the point.
 
 ### POV and Tense
-<!-- Generated during foundation.
-     Third limited? First? Rotating? Omniscient?
-     Past tense? Present? Does it shift for effect? -->
+Three rotating POVs — Dylan, Irina, Xi Pei — each in close third limited, past tense. Each POV has a distinct cognitive register. Cephalopod characters are never POV — they are always observed, always partially opaque.
 
 ### Dialogue Conventions
-<!-- Generated during foundation.
-     Tags: "said" only? Action beats? No tags at all?
-     How do characters sound different from each other?
-     Subtext rules: do characters say what they mean? -->
+Internal thought in italics, unmarked. Spoken dialogue tagged simply. Russian profanity from Irina rendered raw, untranslated, then followed by the English. Cephalopod "speech" as received by humans — rendered in the voices of people the human knows, with the alien content breaking through: "Fine. Do what you want. But I am not going to lose a dorsal tentacle over this." The wrongness is in the mismatch between familiar voice and alien content.
 
 ### Exemplar Passages
-<!-- 3-5 paragraphs that ARE the voice. Written during foundation.
-     The agent calibrates every chapter against these.
-     These are the tuning fork. -->
+
+These are taken directly from the author's Chapter 1. They ARE the voice. Every chapter calibrates against these.
+
+**Dylan — waking:**
+> Dylan woke groggily, staring into three of the six eyes of something that was staring back.
+> As a long-time addict, he had a depth of experience with waking up in strange places with strange companions. But this was distinctly different. For lack of a better word, it looked like a gigantic, psychedelic octopus—half watching him, half studying him.
+> What did I take last night? he wondered, clinging to the only explanation that had ever made sense before.
+
+**Dylan — the implant:**
+> Every neuron in his skull seemed to fire at once, then misfire twice.
+> His heart rate slowed. His metabolism spiked. Heat surged through his body, sharp and fast, like he'd been injected with panic and calm at the same time.
+> He felt something growing from his temples.
+
+**Dylan — paralysis:**
+> Dylan tried to struggle.
+> Or rather, he thought about struggling.
+> But none of his extremities responded. The primal electrical impulses from his brain hit his body and vanished somewhere along the way, as if the wiring had been cut.
+
+**Irina — waking:**
+> Сука бляат!
+> Ити нахуй!
+> Get the fuck away from me!
+> She tried to scream, but nothing happened. No throat, no lungs, no mouth—at least not in any way her mind could reach. The signal never connected. Panic didn't need a voice. It detonated through her anyway: fear, rage, disgust, firing down every path her nervous system still remembered having.
+
+**The squids communicating:**
+> He watched the two squids flash colors at each other—rapid sequences, violent bursts, rippling gradients. It looked like argument. Like warning. Like accusation.
 
 ### Anti-Exemplars
-<!-- 3-5 paragraphs showing what this voice is NOT.
-     Not the generic anti-slop stuff above -- specific to this novel.
-     "This is too flowery for our tone." "This is too modern." -->
+
+**Too flowery — not this voice:**
+> The bioluminescent cascade rippled across the creature's vast, magnificent form like the aurora borealis given flesh, a testament to the ineffable beauty of alien intelligence.
+
+**Too clinical — not this voice:**
+> The cephalopod applied the bio-organic implant device to the subject's nasal cavity, initiating the neural integration sequence.
+
+**Too on-the-nose with theme — not this voice:**
+> Dylan realized in that moment that he was experiencing exactly what animals must feel when subjected to human experimentation. The irony was not lost on him.
