@@ -87,20 +87,19 @@
 
 ---
 
-## Δ∇² + 3(#FF4500)  *(crewmate)*
-- **Role:** 0.3̅'s crewmate. Male. Dangerous obsession with primitive non-bio mechanical technology.
+## Δ∇² + 3(#FF4500)  *(crewmate — "Delta Del Squared")*
+- **Role:** 0.3̅'s crewmate aboard the pirate ship. Male. Unhealthy obsession with primitive, non-bio-based technologies — directly mirroring 0.3̅'s taboo interest in humanoids. Both are running illegal fixations on forbidden domains. This is their bond and their mutual leverage — neither can expose the other without exposing themselves.
 - **Caste:** Aquatic
-- **Communication signature:** OrangeRed. Sharp, combative, volatile.
-- **Parallel taboo:** Her illegal interest is humans. His is mechanical tech. They are each other's leverage and each other's cover.
-- **Personality:** Volatile. The one who flashes the color that means *I am about to eat the human being questioned.* Lacks 0.3̅'s patience with subjects who fail to perform.
+- **Communication signature:** OrangeRed (#FF4500). Sharp, combative, volatile flashes.
+- **Personality:** Volatile. The one who flashes the color that means *I am about to eat the human being questioned.* Lacks 0.3̅'s patience. Views her attachment to her subjects as sentimental and professionally embarrassing.
 
 ---
 
 ## ΔS≠0 + 5(#39FF14)⚡  *(crewmate)*
-- **Role:** Third crewmate. Bright personality. Energy systems specialist.
+- **Role:** Third crewmate aboard the pirate ship. Bright personality. Specializes in energy systems and power-related technologies.
 - **Caste:** [TBD]
-- **Communication signature:** Green + lightning. Fast, energetic, optimistic patterns.
-- **Notes:** [Needs development]
+- **Communication signature:** Green (#39FF14) + lightning (⚡). Fast, energetic, optimistic patterns.
+- **Notes:** [Needs further development]
 
 ---
 
