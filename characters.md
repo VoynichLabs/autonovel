@@ -104,6 +104,16 @@
 
 ---
 
+## Pieter [SURNAME TBD] (non-POV, supporting)
+- **Role:** Abductee. Afrikaner nationalist. Survives.
+- **Background:** South African. Hard-line nationalist politics. Religious. Views the world through the lens of separate development — different peoples, different destinies, hierarchy as divine order.
+- **Why he survives:** His ideology of separate development bizarrely maps onto cephalopod philosophy about the management of life forms. He attunes to governance and grand-design wavelengths — the channels squids use for societal organization, culling protocols, hierarchical doctrine. He hears the architecture of their civilization and recognizes it. It validates everything he believed.
+- **The horror:** He comes to the realization that in the cephalopod framework, humans are the inferior group that must be managed, contained, and culled when the time comes. He does not find this upsetting. He finds it theologically coherent.
+- **Relationship to other humans:** The other humans find him repugnant. He finds them naive.
+- **Arc:** Ideological validation → theological certainty → complicity of a different kind than Raj's, but complicity nonetheless.
+
+---
+
 ## UNIVERSE NOTES (for chapter writer context)
 
 ### Cephalopod Society

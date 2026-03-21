@@ -40,16 +40,19 @@ Multi-POV science fiction. Each early chapter covers the same event — the inta
 - EMOTIONAL ARC: rage → forced stillness → cold analytical focus
 - STATUS: unwritten
 
-### Ch 3: "Xi Pei" (POV: Xi Pei, ~2000 words)
+### Ch 3: "Xi Pei" (POV: Xi Pei, ~2500 words)
 - BEATS:
-  1. Xi Pei is already past intake — implant settled, nubs formed
-  2. Watches 0.3̅ interrogate other humans about the iPhone — they all fail
-  3. He understands what she's asking. He knows the answer. He stays quiet.
-  4. A throwaway human is eaten after failing the interrogation — matter-of-fact, no drama
-  5. The iPhone drifts in front of his tube. 0.3̅'s attention turns toward him.
-  6. He shuts his eyes. Not yet.
+  1. Xi Pei is already past intake — implant settled, nubs formed. He's been watching for days. He's mapped the squids' behavior the way he mapped the assembly line: inputs, outputs, failure modes.
+  2. 0.3̅ interrogates other humans about the devices (iPhones, Samsungs). They all fail. A mathematician tries to explain the device mathematically — misses the point entirely. An engineer explains the circuit board — the squid can't process it, has no framework for dead assembled materials.
+  3. A throwaway human gets eaten after failing — casual, nonchalant, the child. Not dramatized. It just happens. Xi Pei watches.
+  4. The iPhone drifts in front of his tube. He recognizes it immediately. A specific model. He knows the exact tolerances on the chassis, the supplier for that glass, the line that assembled it. He worked on that line.
+  5. 0.3̅'s attention turns to him. He doesn't wait. He reaches through the tube membrane toward the device — not aggressively, the way you'd reach for something you know how to handle. Recognition, not fear.
+  6. The telepathic exchange: he can't explain the device in the squids' mathematical language. But he can SHOW it. He thinks through the entire assembly process — chassis stamping, glass lamination, board population, final test, packaging — in precise sensory detail. The squids receive this as something unexpected: not mathematical but procedural, sequential, granular. A different kind of intelligence.
+  7. 0.3̅ is confused and fascinated. He attuned to bureaucratic channels, not technological ones — yet he knows the machine intimately. She doesn't understand why. Xi Pei doesn't explain. He understands, from years of being useful to people who couldn't understand what he was doing, that you show your value and then you wait.
 - PLANTS:
-  - Xi Pei knows exactly what the squids want — he just hasn't decided what to do about it (payoff: later)
-  - The casual eating of a failed human — sets the stakes (payoff: ongoing)
-- EMOTIONAL ARC: invisible → seen → decision pending
+  - The child's casual death — sets the stakes and the tone permanently (payoff: ongoing)
+  - Xi Pei's procedural cognition vs. mathematical cognition — 0.3̅'s confusion (payoff: later, when she understands what the Party did to him)
+  - The bureaucratic wavelength attunement — he hears the org chart (payoff: Pieter storyline, governance channels)
+- EMOTIONAL ARC: watchful silence → calculated reveal → quiet power
+- CRAFT NOTE: Heavy use of iPhone assembly vocabulary — chassis, Gorilla Glass lamination, haptic engine, board population, OLED panel bonding, final QC. This is the vocabulary only someone on the line knows. It lands as alien to the reader the same way squid math lands as alien — specific, technical, inaccessible without context. That's the point.
 - STATUS: unwritten

@@ -138,6 +138,30 @@ The preserve designation is partly protective (keep humans contained) and partly
 
 ---
 
+## CEPHALOPOD SOCIETY — STRUCTURE
+
+Cephalopod civilization spans multiple galaxies. They are not unified — they are stratified, fractious, and obsessed with hierarchy. Different cephalopod species consider themselves superior to other cephalopod species. The metrics are mathematical: logical purity, cognitive processing speed, bioluminescent communication complexity, telepathic bandwidth. Everything is measured. Everything is ranked.
+
+Within cephalopod society, the social order is elaborate and ancient. Species, caste, attunement breadth, research output, lineage — all factor into standing. Having human pets is the equivalent of a drug habit: shameful, somewhat underground, maintained by those with enough standing to absorb the stigma or enough recklessness not to care.
+
+Squids take their pets with them into squid society. The humans are dressed in accumulated bio-suit layers — they look like small, misshapen squids from a distance. Grotesque. Fascinating. A conversation piece. A provocation.
+
+## THE WIDER UNIVERSE — OTHER SPECIES
+
+Humans are not the only primates in the galaxy. They are not even close to the most advanced.
+
+**Other primate species** exist on other planets — humanoid, recognizably descended from simian stock. Pointy ears, larger craniums, less hair, more hair, divergent skeletal structures. Think Star Trek aliens: distinctly primate, distinctly not human. Some of these species are centuries ahead of Earth technologically. They are still vermin. Still unclean. Still fundamentally regarded as lesser by cephalopod civilization. The fact that some primate species have developed interstellar travel is treated the way cephalopods treat the iPhone: baffling, somewhat impressive, and ultimately irrelevant to the hierarchy.
+
+**Canid and felid species** also appear in the wider universe — intelligent, advanced, space-faring. Also regarded as lesser. The hierarchy is not about intelligence. It is about mathematics. Species that think in mathematics, that communicate in mathematics, that structure their civilization around mathematical truth — those are the civilized ones. Everyone else is, at best, interesting vermin.
+
+**The cephalopod claim:** They dominate the galaxy — and others — not through conquest alone but through the sheer weight of mathematical civilization. Their languages, technologies, social structures, and philosophies are grounded in math in ways that make other species' achievements look like folk art.
+
+## HUMAN HARVESTING — HOW IT HAPPENED
+
+The humans were abducted from whatever they were doing. No pattern, no selection criteria beyond proximity and opportunity. One was commuting. One was working a night shift. One was asleep. The squids didn't carefully curate the group — they swept a net. What survived the implantation process was the selection event, not the abduction.
+
+The devices (iPhones, Samsungs, whatever was in their pockets) came with them. The squids collected one from each human. They don't understand what the devices are for. The communication function makes no sense to them — they have telepathy and bioluminescence. The processing function is almost comprehensible (computation is mathematical) but the substrate is wrong: dead materials, assembled, not grown. The aesthetic function (photos, apps, entertainment) is completely opaque.
+
 ## THEMES
 
 - **Primates as vermin:** The central inversion. Everything humans use to justify their treatment of animals is now applied to them. The reader assembles this without being told.
