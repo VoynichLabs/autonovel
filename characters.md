@@ -52,21 +52,22 @@
 ---
 
 ## Xi Pei (POV)
-- **Role:** Abductee #3. Assembly line worker — Foxconn iPhone factory.
-- **Background:** Works the line. Knows every component, tolerance, and failure mode of the devices the squids can't decode. He is the answer to 0.3̅'s central research question. Neither of them knows it yet.
+- **Role:** Abductee #3. Foxconn assembly line worker — but that description barely covers it. He effectively manages the entire line. He knows every component, tolerance, failure mode, and supply chain dependency of every device that passes through his hands.
+- **Background:** Highly talented engineer, blacklisted by the Chinese Communist Party. His punishment: shut up and keep his head down on the assembly line. He did. He also became indispensable. He is a prisoner-engineer — brilliant, contained, proud of his work in the way only someone who has been told their work doesn't matter can be proud. The assembly line is his domain. He runs it perfectly. Nobody official acknowledges this.
 - **Age:** [TBD]
-- **Arc:** Invisible → essential. Spent his life as interchangeable labor. Now he's the only person who can explain what the squids actually want to know.
+- **Thematic role:** Deep critique of capitalism and the CCP simultaneously. He is what both systems produce when they intersect: a person of exceptional ability rendered invisible by institutional convenience. The squids find him baffling for exactly the same reason the Party did — he doesn't fit the expected category.
+- **Arc:** Invisible → mystery → key. The squids interrogate every other human about the iPhone and get nothing. Xi Pei knows exactly what they're asking. He's watched them eat the ones who failed. He stays quiet. His silence is tactical, not passive. When he finally speaks — on his terms — everything shifts.
 - **Ghost/Wound/Lie:**
-  - Ghost: [TBD]
-  - Wound: Habituated to being replaceable, unseen
-  - Lie: *I don't matter. I just do the job.*
+  - Ghost: Was once in a position where his talent was recognized — and it got him punished. Learned that visibility is danger.
+  - Wound: Has made himself invisible as survival strategy. Is very good at it. Too good.
+  - Lie: *The best thing I can do is keep my head down and run the line.*
   - Want: To survive without being noticed
-  - Need: To recognize that practical, granular, hands-on knowledge is exactly what's needed — and that it came from him
-- **Speech:** Economical. Functional. Describes things in terms of process and tolerance, not metaphor. Precise where others are vague.
-- **Sliders:** Proactivity LOW → pivotal late. Likability HIGH (quiet dignity). Competence VERY HIGH in his domain.
-- **Secrets:** [TBD]
-- **Implant response:** [TBD]
-- **Key tension:** The squids interrogating other humans can't get answers because they're asking the wrong people. Xi Pei hasn't been asked yet. He bioluminesces so fast and rapidly — once converted — that he surprises even 0.3̅.
+  - Need: To recognize that what he knows is the most valuable thing on the ship — and decide what to do with that
+- **Speech:** Economical. Process-oriented. Describes things in terms of function and tolerance, not metaphor. Precise where others are vague. Does not editorialize. Will use technical vocabulary without apology.
+- **Sliders:** Proactivity LOW (by design, by survival habit) → pivotal at a specific chosen moment. Likability HIGH (quiet dignity, earned competence). Competence EXTREMELY HIGH in his domain.
+- **Implant response:** Unusual and diagnostically confusing for 0.3̅. Xi Pei attunes readily to bureaucratic/administrative telepathic wavelengths — the channels squids use for logistics, hierarchy, resource allocation — but NOT to the technological wavelengths she expected. He should be the one who understands the machines. Instead he understands the org chart. The squids find this baffling. He finds it unsurprising.
+- **The mystery:** The chitinous nubs (telepathic antennae) attune differently per human. Some humans get one wavelength, some get multiple, some get none and are fried. Xi Pei's attunement to bureaucratic channels rather than technological ones is a clue about how human cognition actually works — the Party shaped him more than the factory did. 0.3̅ doesn't understand this yet.
+- **Key tension:** He is the answer to the squids' question about human technology. He also knows that being the answer is dangerous. He has watched what happens to humans who fail to answer. He is deciding — carefully, quietly — when and how to reveal what he knows, and what he wants in return.
 
 ---
 

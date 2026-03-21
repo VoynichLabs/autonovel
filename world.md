@@ -102,6 +102,42 @@ The jellyfish implants are 0.3̅'s primary research and conversion tool. They ar
 
 ---
 
+## TELEPATHIC WAVELENGTHS
+
+The chitinous nubs grown at human temples are antennae — grown versions of the same structures squids use natively. Squids communicate across many simultaneous wavelengths. Humans, post-implant, attune to a subset.
+
+**Key rules:**
+- No two humans attune identically. Attunement appears to reflect cognitive architecture shaped by lived experience, not raw intelligence.
+- Some humans attune to one wavelength, some to multiple, some are fried entirely. The fried ones don't survive.
+- Wavelength categories include: technological, bureaucratic/administrative, emotional/relational, navigational, biological/medical, and others not yet mapped.
+- Xi Pei attunes to bureaucratic/administrative channels — not technological, as 0.3̅ expected. His life was shaped more by institutional hierarchy than by engineering. The Party left its mark on his cognition.
+- Raj attunes broadly and fast — his pre-scrambled nervous system picks up multiple channels simultaneously, which is extremely rare and increasingly alarming to 0.3̅.
+- Irina attunes to biological/materials channels — she starts understanding the ship itself before she understands the squids aboard it.
+
+The attunement pattern is a diagnostic tool. 0.3̅ is learning to read what a human's attunement reveals about the civilization that produced them.
+
+---
+
+## HUMANS AS ANOMALY
+
+The squids' discovery of Earth is the equivalent of finding a planet of rats using cell phones. Primates — vermin, unclean, environmentally destructive — should not be at this technological level. The fact that they are is scientifically baffling and socially taboo to discuss seriously.
+
+Humans smelt metals. They cast and manufacture. They use mechanical and electronic systems built from non-living materials. This is conceptually alien to cephalopod civilization, which has no mechanical technology — everything is grown. Cephalopods understand bio-electricity. They do not understand a circuit board. They do not understand why something dead and assembled would function.
+
+This is 0.3̅'s actual research question: not "are humans intelligent" but "how did vermin build this, and what does it mean that they did."
+
+Normally a primate species at this level would have been culled for food or assigned to basic slave labor — mining specific asteroid types, working in climates where grown organisms or cephalopods aren't efficient. The anomaly of human technology creates a small, illegal, academically embarrassing research interest among certain fringe scientists. 0.3̅ is one of them.
+
+---
+
+## EARTH AS PRESERVE — ENVIRONMENTAL READING
+
+Earth's status as a protected nature preserve is not purely administrative. It reflects a genuine cephalopod understanding that unchecked primate species are ecologically catastrophic. Humans are, by any cephalopod metric, an invasive species on their own planet — burning resources, poisoning atmosphere, driving other species extinct at rates that would trigger culling protocols anywhere else in the galaxy.
+
+The preserve designation is partly protective (keep humans contained) and partly scientific (observe what happens when vermin are left unchecked). What's happened is: they built skyscrapers and smartphones. This was not predicted. It has not been satisfactorily explained.
+
+---
+
 ## THEMES
 
 - **Primates as vermin:** The central inversion. Everything humans use to justify their treatment of animals is now applied to them. The reader assembles this without being told.
