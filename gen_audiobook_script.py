@@ -94,7 +94,7 @@ Rules:
 """
 
 
-def call_claude(prompt, max_tokens=8000):
+def call_writer(prompt, max_tokens=8000):
     return call_model(prompt, max_tokens=max_tokens)
 
 
@@ -140,7 +140,7 @@ CHAPTER {ch_num}: "{title}" ({wc} words)
 Output the JSON array only. No other text."""
 
     print(f"  Ch {ch_num}: parsing '{title}' ({wc}w)...", end="", flush=True)
-    result = call_claude(prompt)
+    result = call_writer(prompt)
 
     # Extract JSON from response
     result = result.strip()

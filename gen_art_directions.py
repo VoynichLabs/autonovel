@@ -18,7 +18,7 @@ ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 ANTHROPIC_BASE = os.environ.get("AUTONOVEL_API_BASE_URL", "https://api.anthropic.com")
 
 
-def call_claude(prompt, max_tokens=3000):
+def call_writer(prompt, max_tokens=3000):
     return call_model(prompt, max_tokens=max_tokens)
 
 
@@ -113,7 +113,7 @@ JSON array only."""
     else:
         raise ValueError(f"Unknown art type: {art_type}")
 
-    result = call_claude(task)
+    result = call_writer(task)
     text = result.strip()
     if text.startswith("```"):
         text = re.sub(r'^```\w*\n?', '', text)

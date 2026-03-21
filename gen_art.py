@@ -22,6 +22,7 @@ Full pipeline:
   python gen_art.py all                      # style → curate → batch → vectorize
 """
 import os
+from api_client import call_model
 import sys
 import json
 import re
@@ -112,25 +113,9 @@ def download_image(url, dest_path):
     return len(resp.content)
 
 
-def call_claude(prompt, max_tokens=1500):
-    import httpx
-    resp = httpx.post(
-        f"{ANTHROPIC_BASE}/v1/messages",
-        headers={
-            "x-api-key": ANTHROPIC_KEY,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        },
-        json={
-            "model": WRITER_MODEL,
-            "max_tokens": max_tokens,
-            "temperature": 0.3,
-            "messages": [{"role": "user", "content": prompt}],
-        },
-        timeout=120,
-    )
-    resp.raise_for_status()
-    return resp.json()["content"][0]["text"]
+def call_writer(prompt, max_tokens=1500):
+    """Wrapper around api_client.call_model for art direction prompts."""
+    return call_model(prompt, max_tokens=max_tokens)
 
 
 def load_style():
@@ -197,7 +182,7 @@ Define a VISUAL STYLE for all art in this novel. Output valid JSON:
 JSON only."""
 
     print("Deriving visual style from world + voice...")
-    result = call_claude(prompt)
+    result = call_writer(prompt)
     text = result.strip()
     if text.startswith("```"):
         text = re.sub(r'^```\w*\n?', '', text)
