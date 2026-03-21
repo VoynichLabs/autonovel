@@ -1,0 +1,172 @@
+
+============================================================
+  AUTONOVEL PIPELINE — phases: revision
+============================================================
+  State: phase=drafting, foundation_score=8.0, chapters=21/21, novel_score=0.0
+
+============================================================
+  PHASE 3: REVISION
+============================================================
+
+------------------------------------------------------------
+  Revision Cycle 1/6
+------------------------------------------------------------
+  [19:34:32] Running adversarial editing on all chapters...
+  [19:34:32] RUN: uv run python adversarial_edit.py all
+  [19:40:32] Applying mechanical cuts (OVER-EXPLAIN, REDUNDANT)...
+  [19:40:32] RUN: uv run python apply_cuts.py all --types OVER-EXPLAIN REDUNDANT --min-fat 15
+    WARN: exit code 2
+  [19:40:33] Running reader panel evaluation...
+  [19:40:33] RUN: uv run python reader_panel.py
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/reader_panel.py", line 232, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/reader_panel.py", line 175, in main
+    arc_summary = (BASE_DIR / "arc_summary.md").read_text()
+                  
+  [19:40:33] No strong consensus items found from panel
+  [19:40:33] Running full novel evaluation...
+  [19:40:33] RUN: uv run python evaluate.py --full
+  [19:40:48] Novel score: 7.0  (prev: 0.0, words: 32882)
+  [19:40:48] RUN: git add -A
+  [19:40:48] RUN: git commit -m "revision cycle 1 complete: novel_score 7.0" --allow-empty
+  [19:40:48] RUN: git rev-parse --short HEAD
+  [19:40:48] GIT COMMIT: 24c9123 — revision cycle 1 complete: novel_score 7.0
+
+------------------------------------------------------------
+  Revision Cycle 2/6
+------------------------------------------------------------
+  [19:40:48] Running adversarial editing on all chapters...
+  [19:40:48] RUN: uv run python adversarial_edit.py all
+  [19:46:23] Applying mechanical cuts (OVER-EXPLAIN, REDUNDANT)...
+  [19:46:23] RUN: uv run python apply_cuts.py all --types OVER-EXPLAIN REDUNDANT --min-fat 15
+    WARN: exit code 2
+  [19:46:23] Running reader panel evaluation...
+  [19:46:23] RUN: uv run python reader_panel.py
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/reader_panel.py", line 232, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/reader_panel.py", line 175, in main
+    arc_summary = (BASE_DIR / "arc_summary.md").read_text()
+                  
+  [19:46:23] No strong consensus items found from panel
+  [19:46:23] Running full novel evaluation...
+  [19:46:23] RUN: uv run python evaluate.py --full
+  [19:46:34] Novel score: 7.0  (prev: 7.0, words: 29758)
+  [19:46:34] RUN: git add -A
+  [19:46:34] RUN: git commit -m "revision cycle 2 complete: novel_score 7.0" --allow-empty
+  [19:46:34] RUN: git rev-parse --short HEAD
+  [19:46:34] GIT COMMIT: 1619334 — revision cycle 2 complete: novel_score 7.0
+
+------------------------------------------------------------
+  Revision Cycle 3/6
+------------------------------------------------------------
+  [19:46:34] Running adversarial editing on all chapters...
+  [19:46:34] RUN: uv run python adversarial_edit.py all
+  [19:52:18] Applying mechanical cuts (OVER-EXPLAIN, REDUNDANT)...
+  [19:52:18] RUN: uv run python apply_cuts.py all --types OVER-EXPLAIN REDUNDANT --min-fat 15
+    WARN: exit code 2
+  [19:52:18] Running reader panel evaluation...
+  [19:52:18] RUN: uv run python reader_panel.py
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/reader_panel.py", line 232, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/reader_panel.py", line 175, in main
+    arc_summary = (BASE_DIR / "arc_summary.md").read_text()
+                  
+  [19:52:18] No strong consensus items found from panel
+  [19:52:18] Running full novel evaluation...
+  [19:52:18] RUN: uv run python evaluate.py --full
+  [19:52:32] Novel score: 7.0  (prev: 7.0, words: 26647)
+  [19:52:32] RUN: git add -A
+  [19:52:32] RUN: git commit -m "revision cycle 3 complete: novel_score 7.0" --allow-empty
+  [19:52:32] RUN: git rev-parse --short HEAD
+  [19:52:32] GIT COMMIT: 31f0990 — revision cycle 3 complete: novel_score 7.0
+  [19:52:32] Plateau detected (delta 0.00 < 0.3) after 3 cycles — stopping
+
+============================================================
+  PHASE 3b: OPUS REVIEW LOOP
+============================================================
+
+------------------------------------------------------------
+  Opus Review Round 1/4
+------------------------------------------------------------
+  [19:52:32] Sending manuscript to Opus for review...
+  [19:52:32] RUN: uv run python review.py --output reviews.md
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 273, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 262, in main
+    if not API_KEY:
+           ^^^^^^^
+NameError: name 'API_KEY' is not defined
+
+  [19:52:32] Parsing review...
+  [19:52:32] RUN: uv run python review.py --parse
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 273, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 262, in main
+    if not API_KEY:
+           ^^^^^^^
+NameError: name 'API_KEY' is not defined
+
+
+  [19:52:32] Generating revision briefs from review...
+  [19:52:32] RUN: uv run python gen_brief.py --auto
+  [19:52:32] Revising Ch 18 from review brief...
+  [19:52:32] RUN: uv run python gen_revision.py 18 /Users/macmini/Documents/GitHub/autonovel/briefs/ch18_auto.md
+  [19:52:44] RUN: git add -A
+  [19:52:44] RUN: git commit -m "review round 1: revise ch18 from Opus feedback" --allow-empty
+  [19:52:44] RUN: git rev-parse --short HEAD
+  [19:52:44] GIT COMMIT: 5d74d56 — review round 1: revise ch18 from Opus feedback
+  [19:52:44] Running mechanical cleanup pass...
+  [19:52:44] RUN: uv run python apply_cuts.py all --types OVER-EXPLAIN REDUNDANT --min-fat 15
+    WARN: exit code 2
+  [19:52:44] RUN: git add -A
+  [19:52:45] RUN: git commit -m "review round 1: mechanical cleanup" --allow-empty
+  [19:52:45] RUN: git rev-parse --short HEAD
+  [19:52:45] GIT COMMIT: 11ee40f — review round 1: mechanical cleanup
+  [19:52:45] Review round 1 complete.
+
+------------------------------------------------------------
+  Opus Review Round 2/4
+------------------------------------------------------------
+  [19:52:45] Sending manuscript to Opus for review...
+  [19:52:45] RUN: uv run python review.py --output reviews.md
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 273, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 262, in main
+    if not API_KEY:
+           ^^^^^^^
+NameError: name 'API_KEY' is not defined
+
+  [19:52:45] Parsing review...
+  [19:52:45] RUN: uv run python review.py --parse
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 273, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 262, in main
+    if not API_KEY:
+           ^^^^^^^
+NameError: name 'API_KEY' is not defined
+
+
+  [19:52:45] Generating revision briefs from review...
+  [19:52:45] RUN: uv run python gen_brief.py --auto
+  [19:52:45] Revising Ch 18 from review brief...
+  [19:52:45] RUN: uv run python gen_revision.py 18 /Users/macmini/Documents/GitHub/autonovel/briefs/ch18_auto.md
+  [19:52:56] RUN: git add -A
+  [19:52:56] RUN: git commit -m "review round 2: revise ch18 from Opus feedback" --allow-empty
+  [19:52:56] RUN: git rev-parse --short HEAD
+  [19:52:56] GIT COMMIT: 67a8ee6 — review round 2: revise ch18 from Opus feedback
+  [19:52:56] Running mechanical cleanup pass...
+  [19:52:56] RUN: uv run python apply_cuts.py all --types OVER-EXPLAIN REDUNDANT --min-fat 15
