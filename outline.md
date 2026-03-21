@@ -11,16 +11,16 @@ Multi-POV science fiction. Each early chapter covers the same event — the inta
 
 ## Act 1: Intake
 
-### Ch 1: "Dylan" (POV: Dylan, ~2500 words)
+### Ch 1: "Raj" (POV: Raj, ~2500 words)
 - BEATS:
   1. Wakes in tube, confronts 0.3̅ directly
   2. Jellyfish implantation — body terror, paralysis
   3. Chitinous nubs form at temples
   4. First fractured telepathic contact — familiar voices, wrong content
-  5. Squids argue (bluish vs green) — Dylan catches fragments, realizes he's the subject
+  5. Squids argue (bluish vs green) — Raj catches fragments, realizes he's the subject
   6. 0.3̅ returns: "Let's get you some tentacles. You're going to be my little helper."
 - PLANTS:
-  - Dylan's neural profile is unusual — 0.3̅ chose him specifically (payoff: later)
+  - Raj's neural profile is unusual — 0.3̅ chose him specifically (payoff: later)
   - Xi Pei already being interrogated about iPhone (payoff: Ch 3)
 - EMOTIONAL ARC: disoriented rationalization → violation → forced lucidity
 - STATUS: drafted (v1, score 8.0)

@@ -6,25 +6,25 @@
 
 ---
 
-## Dylan (POV)
-- **Role:** Abductee #1. The squid protagonist's designated "little helper."
-- **Background:** Long-term drug addict. PhD-level education (advisor mentioned — program unclear). History of waking up in strange places with strange companions.
-- **Age:** [TBD]
-- **Arc:** Rationalization → forced lucidity → complicity. Spends Act 1 trying to explain away what's happening as a hallucination. The implant makes denial impossible. By Act 3 he's functional inside the squid's network — and has to decide what that means.
+## Raj (POV)
+*formerly "Dylan" — rename throughout*
+- **Role:** Abductee #1. 0.3̅'s designated "little helper." Grandma's favorite. He calls her Grandma. He means it.
+- **Background:** Long-term drug addict. Indian family, upper-class expectations — the PhD program was the family dream, not his. Washed out. Has a depth of experience waking up in strange places. His nervous system is pre-adapted for altered states.
+- **Age:** Late 20s / early 30s
+- **Arc:** The most important arc in the book. Raj doesn't fight the conversion. He leans in. Willingly, gleefully, to the horror of every other human. He is the first to abandon his humanity — and he doesn't experience it as loss. He experiences it as relief. He was never that comfortable being human. By Act 3 he is Grandma's collaborator, not her pet.
 - **Ghost/Wound/Lie:**
-  - Ghost: [TBD — what burned him out of the PhD program]
-  - Wound: Chemically numbed against reality
-  - Lie: *None of this is really happening.*
+  - Ghost: Failed out of PhD program — or quit, or was pushed. Upper-class Indian family's expectations hanging over everything he does.
+  - Wound: Never fit the life that was built for him
+  - Lie: *I am broken. I am less than what I was supposed to be.*
   - Want: To survive by not engaging
-  - Need: To be present in his own life for the first time
-- **Speech:** Wry, deflecting. Frames everything as a drug story. Uses humor as insulation. Stops doing this when the implant kicks in and the voices become undeniable.
-- **Sliders:** Proactivity LOW → rising. Likability HIGH (self-aware loser). Competence HIDDEN — smarter than he presents.
-- **Secrets:** [TBD — what got him kicked from the program / what he was running from]
-- **Implant response:** Survives. The chitinous nubs form at his temples. He feels each pop behind his eyes as the bio-interface grows and begins syncing to the squid thought network. His addict's nervous system — already rewired for altered states — adapts in ways that surprise 0.3̅.
-- **Why 0.3̅ picked him:** Something in his neural profile read differently. "You're such a smart one, aren't you?" She means it. He doesn't believe her yet.
+  - Need: To discover that the thing that made him a failure in human terms is exactly what makes him extraordinary in squid terms
+- **Speech:** Wry, deflecting. Frames everything as a drug story — until the implant kicks in and he doesn't need the frame anymore. Post-integration: precise, increasingly alien in register. He starts adopting squid communication patterns without noticing.
+- **Sliders:** Proactivity LOW → becomes the highest in the cast. Likability HIGH (charming self-aware disaster) → complicated (other humans find his adaptation repellent). Competence HIDDEN then revealed then terrifying.
+- **Implant response:** Fastest integration of any human. His pre-rewired nervous system takes to the interface like it was designed for it. 0.3̅ is surprised. Raj is not.
+- **Relationship to 0.3̅:** He calls her Grandma. Not ironically. She finds this incomprehensible and charming. Their relationship is the emotional spine of the book.
 - **Relationships:**
-  - 0.3̅: His captor/keeper. She chose him specifically. He doesn't know why.
-  - Irina: [develops]
+  - 0.3̅ ("Grandma"): His keeper, his collaborator, eventually something without a human name
+  - Irina: She watches his adaptation with scientific horror. Then just horror.
   - Xi Pei: [develops]
 
 ---

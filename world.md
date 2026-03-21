@@ -41,6 +41,18 @@ Humans perceive cephalopod communication as overwhelming synesthesia — color, 
 - **Amphibious** — mid caste. Handle land-based operations. Respected but not elevated.
 - **Land-dwelling** — lowest caste. Regarded as effectively disabled. Marginalized.
 
+### Cephalopod Names — Human Evolution
+Cephalopod names are mathematical notation with embedded bioluminescent color frequencies — incomprehensible to unimplanted humans by design. The incomprehensibility is the point: if you can't read it, you're not ready.
+
+Early in captivity, humans identify squids by appearance: "the big green one," "the bluish one." This breaks down quickly as colors shift and individuals become harder to distinguish.
+
+Post-implant, humans start catching fragments of the actual names and shorthand them:
+- `[x].3̅ + 2(#39FF14)ω` → "Repeating Remainder Three" → eventually just "Grandma" (Raj's name for her, which sticks)
+- `Δ∇² + 3(#FF4500)` → Irina recognizes the math notation first → "Delta Del" (Delta Del Squared, shortened)
+- `ΔS≠0 + 5(#39FF14)⚡` → [humans haven't named this one yet]
+
+The naming process tracks the humans' integration: the more they understand, the more specific their names become. Raj gets there first.
+
 ### Appearance (human POV)
 - 30–40 feet tall
 - Multiple eyes set around the body — typically six or more

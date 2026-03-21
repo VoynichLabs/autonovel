@@ -119,8 +119,11 @@ Everything below is discovered during the foundation phase.
 The agent proposes a voice that serves THIS story, writes exemplar
 passages, and calibrates against them throughout drafting.
 
+### Literary DNA
+Bret Easton Ellis (flat affect, complicity as style, the horror of what the narrator finds normal), Goethe (interiority, transformation, the cost of ambition), Brecht (Verfremdungseffekt — alienation effect without pretension). Raw. Visceral. Unsparing. The reader should be unsettled by what they find themselves accepting by page 50.
+
 ### Tone
-Dry, grounded, and visceral. Horror that doesn't announce itself as horror. The narrator observes without editorializing. The wrongness accumulates through specificity, not through adjectives. Dark comedy is present — Dylan's internal voice is wry — but it never softens what's actually happening.
+Dry, grounded, visceral. Horror that doesn't announce itself as horror. The narrator observes without editorializing. The wrongness accumulates through specificity, not through adjectives. Death is nonchalant — the child gets eaten casually, in passing, the way The Walking Dead kills characters: brutal, matter-of-fact, no catharsis provided. Dark comedy present but never softening. The alienation effect is structural: the reader is never allowed full identification with the human perspective, because the human perspective is increasingly wrong.
 
 ### Sentence Rhythm
 Short sentences for physical experience, paralysis, panic. Longer sentences when the mind tries to reason its way through something unreasonable. Fragments are earned — they land when the character's cognition breaks. Dylan's POV runs shorter and punchier. Irina's runs clipped and diagnostic. Xi Pei's runs functional, process-oriented.
