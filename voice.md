@@ -175,3 +175,15 @@ These are taken directly from the author's Chapter 1. They ARE the voice. Every 
 
 **Too on-the-nose with theme — not this voice:**
 > Dylan realized in that moment that he was experiencing exactly what animals must feel when subjected to human experimentation. The irony was not lost on him.
+
+### Visual Typography & Page Design
+The text is not flat content on a page. The text IS the art. Think Saul Williams — his poetry books where the visual arrangement of words is part of the meaning. Typography, spacing, scale, and layout carry weight equal to the prose.
+
+**Principles:**
+- Words break across the page intentionally. Size shifts. Weight shifts. Fragments float in whitespace.
+- Multilingual drift — Russian (Cyrillic), Mandarin, cephalopod mathematical notation flow through the text as part of the visual rhythm, not as foreign-language blocks set apart
+- Whitespace is a character. Where a word sits on the page matters.
+- Scale shifts signal POV shifts — human smallness vs. cephalopod enormity reflected in the typography itself
+- The page should feel alien in its layout, the way the cephalopod world feels alien to the humans in it
+- Not pithy, not compressed clever-tweets — the design needs room to breathe, to be strange, to be unsettling in its arrangement
+- Surreal, abstract — the reading experience should disorient in the same way the implantation disorients
