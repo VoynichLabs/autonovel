@@ -1,0 +1,183 @@
+
+============================================================
+  AUTONOVEL PIPELINE — phases: revision
+============================================================
+  State: phase=revision, foundation_score=8.0, chapters=21/21, novel_score=7.0
+
+============================================================
+  PHASE 3: REVISION
+============================================================
+
+------------------------------------------------------------
+  Revision Cycle 3/4
+------------------------------------------------------------
+  [19:20:40] Running adversarial editing on all chapters...
+  [19:20:40] RUN: uv run python adversarial_edit.py all
+  [19:26:49] Applying mechanical cuts (OVER-EXPLAIN, REDUNDANT)...
+  [19:26:49] RUN: uv run python apply_cuts.py all --types OVER-EXPLAIN REDUNDANT --min-fat 15
+    WARN: exit code 2
+  [19:26:49] Running reader panel evaluation...
+  [19:26:49] RUN: uv run python reader_panel.py
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/reader_panel.py", line 232, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/reader_panel.py", line 175, in main
+    arc_summary = (BASE_DIR / "arc_summary.md").read_text()
+                  
+  [19:26:49] No strong consensus items found from panel
+  [19:26:49] Running full novel evaluation...
+  [19:26:49] RUN: uv run python evaluate.py --full
+  [19:26:59] Novel score: 7.0  (prev: 7.0, words: 36493)
+  [19:26:59] RUN: git add -A
+  [19:26:59] RUN: git commit -m "revision cycle 3 complete: novel_score 7.0" --allow-empty
+  [19:26:59] RUN: git rev-parse --short HEAD
+  [19:26:59] GIT COMMIT: 9148fe6 — revision cycle 3 complete: novel_score 7.0
+  [19:26:59] Plateau detected (delta 0.00 < 0.3) after 3 cycles — stopping
+
+============================================================
+  PHASE 3b: OPUS REVIEW LOOP
+============================================================
+
+------------------------------------------------------------
+  Opus Review Round 1/4
+------------------------------------------------------------
+  [19:26:59] Sending manuscript to Opus for review...
+  [19:26:59] RUN: uv run python review.py --output reviews.md
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 273, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 262, in main
+    if not API_KEY:
+           ^^^^^^^
+NameError: name 'API_KEY' is not defined
+
+  [19:26:59] Parsing review...
+  [19:26:59] RUN: uv run python review.py --parse
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 273, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 262, in main
+    if not API_KEY:
+           ^^^^^^^
+NameError: name 'API_KEY' is not defined
+
+
+  [19:26:59] Generating revision briefs from review...
+  [19:26:59] RUN: uv run python gen_brief.py --auto
+  [19:26:59] Revising Ch 18 from review brief...
+  [19:26:59] RUN: uv run python gen_revision.py 18 /Users/macmini/Documents/GitHub/autonovel/briefs/ch18_auto.md
+  [19:27:19] RUN: git add -A
+  [19:27:19] RUN: git commit -m "review round 1: revise ch18 from Opus feedback" --allow-empty
+  [19:27:19] RUN: git rev-parse --short HEAD
+  [19:27:19] GIT COMMIT: 7a03873 — review round 1: revise ch18 from Opus feedback
+  [19:27:19] Running mechanical cleanup pass...
+  [19:27:19] RUN: uv run python apply_cuts.py all --types OVER-EXPLAIN REDUNDANT --min-fat 15
+    WARN: exit code 2
+  [19:27:19] RUN: git add -A
+  [19:27:19] RUN: git commit -m "review round 1: mechanical cleanup" --allow-empty
+  [19:27:19] RUN: git rev-parse --short HEAD
+  [19:27:19] GIT COMMIT: d586b8b — review round 1: mechanical cleanup
+  [19:27:19] Review round 1 complete.
+
+------------------------------------------------------------
+  Opus Review Round 2/4
+------------------------------------------------------------
+  [19:27:19] Sending manuscript to Opus for review...
+  [19:27:19] RUN: uv run python review.py --output reviews.md
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 273, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 262, in main
+    if not API_KEY:
+           ^^^^^^^
+NameError: name 'API_KEY' is not defined
+
+  [19:27:19] Parsing review...
+  [19:27:19] RUN: uv run python review.py --parse
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 273, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 262, in main
+    if not API_KEY:
+           ^^^^^^^
+NameError: name 'API_KEY' is not defined
+
+
+  [19:27:19] Generating revision briefs from review...
+  [19:27:19] RUN: uv run python gen_brief.py --auto
+  [19:27:19] Revising Ch 18 from review brief...
+  [19:27:19] RUN: uv run python gen_revision.py 18 /Users/macmini/Documents/GitHub/autonovel/briefs/ch18_auto.md
+  [19:27:32] RUN: git add -A
+  [19:27:32] RUN: git commit -m "review round 2: revise ch18 from Opus feedback" --allow-empty
+  [19:27:32] RUN: git rev-parse --short HEAD
+  [19:27:32] GIT COMMIT: 16e46b7 — review round 2: revise ch18 from Opus feedback
+  [19:27:32] Running mechanical cleanup pass...
+  [19:27:32] RUN: uv run python apply_cuts.py all --types OVER-EXPLAIN REDUNDANT --min-fat 15
+    WARN: exit code 2
+  [19:27:32] RUN: git add -A
+  [19:27:32] RUN: git commit -m "review round 2: mechanical cleanup" --allow-empty
+  [19:27:32] RUN: git rev-parse --short HEAD
+  [19:27:32] GIT COMMIT: 0439cb3 — review round 2: mechanical cleanup
+  [19:27:32] Review round 2 complete.
+
+------------------------------------------------------------
+  Opus Review Round 3/4
+------------------------------------------------------------
+  [19:27:32] Sending manuscript to Opus for review...
+  [19:27:32] RUN: uv run python review.py --output reviews.md
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 273, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 262, in main
+    if not API_KEY:
+           ^^^^^^^
+NameError: name 'API_KEY' is not defined
+
+  [19:27:32] Parsing review...
+  [19:27:32] RUN: uv run python review.py --parse
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 273, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 262, in main
+    if not API_KEY:
+           ^^^^^^^
+NameError: name 'API_KEY' is not defined
+
+
+  [19:27:33] Generating revision briefs from review...
+  [19:27:33] RUN: uv run python gen_brief.py --auto
+  [19:27:33] Revising Ch 18 from review brief...
+  [19:27:33] RUN: uv run python gen_revision.py 18 /Users/macmini/Documents/GitHub/autonovel/briefs/ch18_auto.md
+  [19:27:51] RUN: git add -A
+  [19:27:51] RUN: git commit -m "review round 3: revise ch18 from Opus feedback" --allow-empty
+  [19:27:51] RUN: git rev-parse --short HEAD
+  [19:27:51] GIT COMMIT: 280fb04 — review round 3: revise ch18 from Opus feedback
+  [19:27:51] Running mechanical cleanup pass...
+  [19:27:51] RUN: uv run python apply_cuts.py all --types OVER-EXPLAIN REDUNDANT --min-fat 15
+    WARN: exit code 2
+  [19:27:51] RUN: git add -A
+  [19:27:51] RUN: git commit -m "review round 3: mechanical cleanup" --allow-empty
+  [19:27:51] RUN: git rev-parse --short HEAD
+  [19:27:51] GIT COMMIT: 2c82897 — review round 3: mechanical cleanup
+  [19:27:51] Review round 3 complete.
+
+------------------------------------------------------------
+  Opus Review Round 4/4
+------------------------------------------------------------
+  [19:27:51] Sending manuscript to Opus for review...
+  [19:27:51] RUN: uv run python review.py --output reviews.md
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 273, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 262, in main
+    if not API_KEY:
+           ^^^^^^^
+NameError: name 'API_KEY' is not defined
