@@ -43,9 +43,19 @@ def find_font(name, style="Regular"):
     return None
 
 
+def _default_title():
+    """Read title from seed.txt first line, fallback to Untitled Novel."""
+    seed_path = BASE_DIR / "seed.txt"
+    if seed_path.exists():
+        first_line = seed_path.read_text().strip().split('\n')[0].strip().lstrip('# ')
+        if first_line:
+            return first_line
+    return "Untitled Novel"
+
+
 def compose_cover(
     art_path,
-    title="The Second Son of the House of Bells",
+    title=None,
     author="Claude Hermes",
     subtitle="A Novel",
     blurb="",
@@ -56,6 +66,8 @@ def compose_cover(
     canvas_height=None,
     spine_width=None,
 ):
+    if title is None:
+        title = _default_title()
     # Use exact printer dimensions if provided, otherwise calculate
     if canvas_width and canvas_height and spine_width:
         canvas_w = canvas_width
@@ -330,7 +342,7 @@ def compose_cover(
 def main():
     parser = argparse.ArgumentParser(description="Compose print-ready book cover")
     parser.add_argument("art_path", help="Path to panoramic cover art")
-    parser.add_argument("--title", default="The Second Son of the House of Bells")
+    parser.add_argument("--title", default=None)
     parser.add_argument("--author", default="Claude Hermes")
     parser.add_argument("--subtitle", default="A Novel")
     parser.add_argument("--blurb", default="")

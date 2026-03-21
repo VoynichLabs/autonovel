@@ -30,22 +30,50 @@ CHAPTERS_DIR = BASE_DIR / "chapters"
 AUDIO_DIR = BASE_DIR / "audiobook"
 SCRIPTS_DIR = AUDIO_DIR / "scripts"
 
-# Characters from the novel
-CHARACTERS = {
-    "NARRATOR": "The narrative voice — warm, measured, precise. Reads prose with the rhythm of the novel's world.",
-    "CASS": "14-year-old boy. Dry, sharp, sometimes frustrated. His voice tightens when he lies or holds back.",
-    "EDDAN": "52, Cass's father. Deep, rough, terse. Sentences often trail off or restart. Workshop voice is steadier than kitchen voice.",
-    "PERIN": "26, Cass's brother. Dry, precise, carries something heavy. Letters-voice is more controlled than in-person voice.",
-    "LENNE": "14, female. Quick, confident, intellectually sharp. Composes while she talks — fingers moving, voice certain.",
-    "TORVALD": "63, retired dye merchant. Gravelly, warm, rambling. Outer-district speech — longer sentences, less careful, trade metaphors.",
-    "MARET": "60, female. Controlled, precise, still. No wasted words. When she finally shows emotion it's devastating.",
-    "DAV_SORN": "34, Court Singer. Formal, clipped, self-correcting. Starts sentences and abandons them. Qualifying everything.",
-    "PROCTOR_FEN": "Male, middle-aged, Academy teacher. Dry, archly amused, pedagogical.",
-    "FERREN": "40, acoustician. Clinical, measured, professional.",
-    "MIRA_FEN": "60s, female, Academy scholar. Quiet, precise, carrying thirty years of regret.",
-    "VELLA": "Lenne's mother, Court Singer. Measured, formal, the weight of knowing she's about to risk everything.",
-    "OSSIAN": "14, male student. Nervous, eager, tends to overstate.",
-}
+def load_characters():
+    """Load character list dynamically from characters.md."""
+    chars = {
+        "NARRATOR": "The narrative voice — warm, measured, precise. Reads prose with the rhythm of the novel's world.",
+    }
+    chars_path = BASE_DIR / "characters.md"
+    if not chars_path.exists():
+        print("Warning: characters.md not found, using NARRATOR only", file=sys.stderr)
+        return chars
+
+    import re as _re
+    text = chars_path.read_text()
+    # Extract character entries: look for markdown headers with character names
+    # Pattern: ## Name or ### Name, possibly followed by role/description
+    sections = _re.split(r'\n##+ ', text)
+    for section in sections[1:]:  # skip preamble
+        lines = section.strip().split('\n')
+        header = lines[0].strip()
+        # Extract name (first part before parenthetical or dash)
+        name_match = _re.match(r'\*{0,2}([^(*\n—–-]+)', header)
+        if name_match:
+            name = name_match.group(1).strip().rstrip('*')
+            # Build a brief voice description from the section
+            section_text = '\n'.join(lines[1:])
+            # Look for speech pattern or dialogue info
+            speech = ""
+            for line in lines[1:]:
+                lower = line.lower()
+                if any(k in lower for k in ['speech', 'voice', 'dialogue', 'verbal', 'tone']):
+                    speech = line.strip().lstrip('- *').strip()
+                    break
+            if not speech:
+                # Use first non-empty content line as description
+                for line in lines[1:]:
+                    stripped = line.strip().lstrip('- ')
+                    if stripped and len(stripped) > 10:
+                        speech = stripped[:120]
+                        break
+            key = _re.sub(r'[^A-Z0-9_]', '_', name.upper().replace(' ', '_'))
+            chars[key] = speech or name
+    return chars
+
+
+CHARACTERS = load_characters()
 
 AUDIO_TAG_GUIDE = """
 Available ElevenLabs v3 audio tags (use sparingly, only when the emotion is CLEAR):
@@ -115,7 +143,7 @@ RULES:
 6. Scene breaks (---) become {{"speaker": "NARRATOR", "text": "[pause]"}}
 7. Chapter titles become the first segment: {{"speaker": "NARRATOR", "text": "[slowly] Chapter One: The Morning Pitch"}}
 8. Add audio tags based on emotional context. Be subtle — most lines need no tag.
-9. Internal thoughts in *italics* should be read by the CHARACTER (Cass usually), tagged [softly] or [whisper].
+9. Internal thoughts in *italics* should be read by the POV CHARACTER, tagged [softly] or [whisper].
 
 OUTPUT FORMAT: A JSON array of objects, each with:
   "speaker": character name (from the list above)

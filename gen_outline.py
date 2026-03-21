@@ -64,8 +64,8 @@ State the percentage marks for the key novel.
 
 For EACH chapter, provide:
 ### Ch N: [Title]
-- **POV:** (always Cass, third-person limited)
-- **Location:** Which districts/locations
+- **POV:** (determined by the character registry — state POV character and mode)
+- **Location:** Which locations from the world bible
 - **Save the Cat beat:** Which beat this chapter serves (Opening Image, Setup, Catalyst, etc.)
 - **% mark:** Where this falls in the novel
 - **Emotional arc:** Starting emotion → ending emotion
@@ -73,9 +73,9 @@ For EACH chapter, provide:
 - **Beats:** 3-5 specific scene beats that must happen
 - **Plants:** Foreshadowing elements planted in this chapter
 - **Payoffs:** Foreshadowing elements that pay off here
-- **Character movement:** What changes for Cass (or other characters) by chapter's end
-- **The lie:** How Cass's lie ("if I master the system, I can fix things from inside") is
-  reinforced or challenged in this chapter
+- **Character movement:** What changes for the protagonist (or other characters) by chapter's end
+- **The lie:** How the protagonist's lie (from the character registry) is reinforced or
+  challenged in this chapter
 - **~Word count target:** for pacing
 
 ## Foreshadowing Ledger
@@ -85,32 +85,31 @@ A table tracking every planted thread:
 
 Include at LEAST 15 threads. Types: object, dialogue, action, symbolic, structural.
 
-KEY PLOT ARCHITECTURE:
+KEY PLOT ARCHITECTURE (derive specifics from seed, world, and characters above):
 
-Act I (Ch 1-6ish): Establish Cass's world, his pain, his gift, the Academy, his family.
-Plant the mystery early (the locked room, the forbidden bells, father's tremor).
-Catalyst: something forces Cass to investigate Perin's contract.
+Act I (Ch 1-6ish): Establish the protagonist's world, their wound, their abilities, their
+key relationships. Plant the central mystery early. Catalyst: an inciting event forces the
+protagonist into action.
 
-Act II Part 1 (Ch 7-12ish): Investigation. Cass digs into the Corda contract, encounters
-Maret, allies with Torvald and Lenne, begins hearing the harmonic more clearly.
-Midpoint: Cass learns a partial truth that changes his approach (false victory or defeat).
+Act II Part 1 (Ch 7-12ish): Investigation / escalation. The protagonist pursues their want,
+encounters the antagonist, forms alliances. Midpoint: a partial truth changes their approach
+(false victory or defeat).
 
-Act II Part 2 (Ch 13-18ish): Pressure mounts. Maret moves against the Bellwrights.
-Father's secrets begin to surface. Cass's lie is increasingly unsustainable.
-All Is Lost: Cass confronts his father and learns the full truth.
+Act II Part 2 (Ch 13-18ish): Pressure mounts. The antagonist closes in. Secrets surface.
+The protagonist's lie becomes increasingly unsustainable. All Is Lost: a revelation forces
+the protagonist to confront the full truth.
 
-Act III (Ch 19-24ish): Cass understands the question. Must choose how to answer.
-The climax plays out using the established intervals of Tonal Law.
-The resolution shows the aftermath of his choice.
+Act III (Ch 19-24ish): The protagonist understands the real question. Must choose how to answer.
+The climax plays out using the world's established rules and systems. The resolution shows
+the aftermath of their choice.
 
 CONSTRAINTS:
-- The climax must be mechanically resolvable using established Tonal Law intervals
-- Cass's investigation should feel like a mystery plot overlaid on a coming-of-age arc
+- The climax must be mechanically resolvable using the world's established rules/systems
 - The Stability Trap: bad things must stay bad. Not everything resolves cleanly.
-- Perin must appear in person at some point (not just in memory/letters)
 - At least 3 chapters should be "quiet" -- character-focused, low-action, emotionally rich
 - Vary the try-fail types: 60%+ should be "yes-but" or "no-and"
 - The foreshadowing ledger must have plant-to-payoff distances of at least 3 chapters
+- All character names, locations, and plot beats must come from the seed, world, and character docs above
 """
 
 print("Calling writer model...", file=sys.stderr)

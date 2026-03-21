@@ -60,21 +60,21 @@ STRUCTURE THE DOCUMENT WITH THESE SECTIONS:
 A timeline of major events. Focus on events that create PRESENT-DAY tensions.
 Include the founding myth, key turning points, and recent events that matter to the plot.
 
-## Magic System
-### Hard Rules (Tonal Law)
-Specific, testable rules. What intervals do what. What progressions bind.
-What happens when you break the rules. Include COSTS and LIMITATIONS prominently.
+## Power / Magic System
+### Hard Rules
+Specific, testable rules. What the system can do, what it costs, what its limitations are.
+Include COSTS and LIMITATIONS prominently (per Sanderson's Second Law).
 
-### Soft Magic (Cass's Gift)
-What he perceives, how it works, what it costs HIM specifically.
-This should be mysterious but have consistent internal logic.
+### Soft / Mysterious Elements
+What is sensed or perceived but not fully understood. Abilities that are
+mysterious but have consistent internal logic.
 
 ### Societal Implications
-How does tonal law shape: governance, commerce, education, class structure,
+How does the power system shape: governance, commerce, education, class structure,
 crime, family life, childhood, aging, disability?
 
 ## Geography
-Cantamura's physical layout, districts, the natural amphitheater's acoustic properties.
+The primary setting's physical layout, districts, and distinctive features.
 Neighboring places (at least 2-3). Sensory signatures for each location.
 
 ## Factions & Politics
@@ -82,7 +82,7 @@ Who holds power, who wants it, who's being crushed by it.
 At least 3-4 factions with opposing interests.
 
 ## Bestiary / Flora / Natural World
-What's unique about the natural world in and around Cantamura?
+What's unique about the natural world in and around the primary setting?
 
 ## Cultural Details
 Customs, taboos, festivals, food, clothing, coming-of-age rituals.

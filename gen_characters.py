@@ -68,9 +68,10 @@ Rules: Want and Need must be IN TENSION. Lie statable in one sentence.
 7. Metaphor domain  8. Directness vs indirectness
 Test: Remove dialogue tags. Can you tell who's speaking?
 
-BUILD THE REGISTRY WITH AT LEAST THESE CHARACTERS:
+BUILD THE REGISTRY WITH AT LEAST THESE ARCHETYPES (derive names, details, and
+specifics from the seed and world above):
 
-1. **Cass Bellwright** (protagonist, POV character)
+1. **Protagonist** (POV character)
    - Full wound/want/need/lie chain
    - Three sliders with justification
    - Arc type (positive/negative/flat)
@@ -79,32 +80,26 @@ BUILD THE REGISTRY WITH AT LEAST THESE CHARACTERS:
    - At least 2 secrets
    - Key relationships mapped
 
-2. **Eddan Bellwright** (father)
-   - Same depth as Cass
-   - His relationship to the sealed journals, the shaking hands
-   - What he knows and what he's hiding
+2. **Key family members or close relationships** (1-2 characters)
+   - Same depth as protagonist
+   - What they know and what they're hiding
+   - Their relationship to the central conflict
 
-3. **Perin Bellwright** (brother) 
-   - Even though he's absent for much of the story, he needs full depth
-   - What actually happened with the Corda contract
-   - His presence through absence
+3. **Antagonist** (primary opposition)
+   - Not a villain -- someone whose interests conflict with the protagonist's
+   - Their own wound/want/need/lie (they should be understandable)
+   - As fully realized as the protagonist
 
-4. **Maret Corda** (antagonist)
-   - Not a villain -- someone whose interests conflicts with Cass's
-   - Her own wound/want/need/lie (she should be understandable)
+4. **Institutional/systemic antagonist** (optional, if the world supports it)
+   - The system personified
+   - They believe they're doing the right thing
 
-5. **Rector Suvaine** (Academy Chancellor)
-   - The institutional antagonist -- the system personified
-   - She believes she's protecting Cantamura
+5. **Mentor or ally** (1-2 characters)
+   - An outsider perspective on the system
+   - What they represent thematically
 
-6. **Torvald Hess** (Compact leader)
-   - The outsider perspective on the system
-   - What he represents thematically
-
-7. **At least 1-2 additional characters** that the story needs
-   - A peer/friend for Cass at the Academy?
-   - Someone at the House of Corda who knows Perin?
-   - A Court Singer with divided loyalties?
+6. **At least 1-2 additional characters** the story needs
+   - Derive from the seed's premise and the world's factions/society
 
 FOR EACH CHARACTER INCLUDE:
 - Name, age, role
@@ -122,9 +117,9 @@ IMPORTANT:
 - Characters must INTERCONNECT. Their wants should conflict with each other.
 - Every secret should be something that would CHANGE the story if revealed.
 - Speech patterns must be distinct enough to pass the no-tags test.
-- Give Cass habits that come from his gift (the pain, the constant listening).
-- The father's shaking hands should connect to something specific.
-- Maret Corda should be as fully realized as Cass -- a worthy antagonist.
+- The protagonist's habits should connect to their abilities or wound.
+- The antagonist should be as fully realized as the protagonist -- a worthy opponent.
+- All names and details must come from the seed and world docs, not from templates.
 - Target ~3000-4000 words. Dense character work, not padding.
 """
 

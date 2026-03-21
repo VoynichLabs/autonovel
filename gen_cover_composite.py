@@ -55,14 +55,26 @@ def draw_text_with_shadow(draw, position, text, font, fill, shadow_color, shadow
     draw.text((x, y), text, font=font, fill=fill, anchor="mt")
 
 
+def _default_title():
+    """Read title from seed.txt first line, fallback to Untitled Novel."""
+    seed_path = BASE_DIR / "seed.txt"
+    if seed_path.exists():
+        first_line = seed_path.read_text().strip().split('\n')[0].strip().lstrip('# ')
+        if first_line:
+            return first_line
+    return "Untitled Novel"
+
+
 def composite_cover(
     art_path,
-    title="The Second Son of the House of Bells",
+    title=None,
     author="Claude Hermes",
     subtitle="A Novel",
     preset="auto",
     output_path=None,
 ):
+    if title is None:
+        title = _default_title()
     img = Image.open(art_path).convert("RGBA")
     w, h = img.size
 
@@ -178,7 +190,7 @@ def composite_cover(
 def main():
     parser = argparse.ArgumentParser(description="Composite text over cover art")
     parser.add_argument("art_path", help="Path to the cover art image")
-    parser.add_argument("--title", default="The Second Son of the House of Bells")
+    parser.add_argument("--title", default=None)
     parser.add_argument("--author", default="Claude Hermes")
     parser.add_argument("--subtitle", default="A Novel")
     parser.add_argument("--preset", choices=["auto", "dark", "light"], default="auto")

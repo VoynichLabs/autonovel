@@ -61,11 +61,7 @@ They should explore different:
 
 DO NOT just vary the same concept. Each should look like it came from a DIFFERENT designer.
 
-Examples of the range I want:
-  Direction 1: "Abstract — a single bronze bell cross-section rendered as a geological diagram, layers of metal shown like strata, the sound wave visible as concentric rings. Monochrome with one warm accent. Linocut style."
-  Direction 2: "Figurative — a boy's hands on a workbench, seen from above. Bronze filings, a pitch-gauge, a letter half-unfolded. Photorealistic, shallow depth of field. Warm lamplight."
-  Direction 3: "Typographic — the title constructed from overlapping sound waves, the letterforms vibrating. Pure geometry. Black on cream."
-  Direction 4: "Atmospheric — a limestone bowl city seen from the rim at dawn, tiny and detailed, the bell tower as the only vertical element. Watercolor. Pale gold and gray."
+Derive all imagery from the novel's world, characters, and themes — not from generic fantasy tropes.
 
 Output a JSON array of {n} objects, each with:
   "direction": one-word label (e.g. "abstract", "figurative", "atmospheric")

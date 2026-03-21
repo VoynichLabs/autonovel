@@ -38,8 +38,9 @@ def extract_key_passages(text):
 def main():
     summaries = []
     
-    for ch in range(1, 20):
-        path = CHAPTERS_DIR / f"ch_{ch:02d}.md"
+    ch_files = sorted(CHAPTERS_DIR.glob("ch_*.md"))
+    for path in ch_files:
+        ch = int(path.stem.split('_')[1])
         text = path.read_text()
         wc = len(text.split())
         opening, closing, dialogue = extract_key_passages(text)
@@ -65,25 +66,38 @@ def main():
         summaries.append(entry)
         print(f"Ch {ch}: summarized ({wc}w)")
     
+    # Load canon and seed for dynamic premise
+    canon_path = BASE_DIR / "canon.md"
+    seed_path = BASE_DIR / "seed.txt"
+    canon_text = canon_path.read_text() if canon_path.exists() else ""
+    seed_text = seed_path.read_text() if seed_path.exists() else ""
+
+    # Derive title from seed.txt first line
+    title = "Untitled Novel"
+    if seed_text.strip():
+        first_line = seed_text.strip().split('\n')[0].strip().lstrip('# ')
+        if first_line:
+            title = first_line
+
     # Calculate total word count
-    total_wc = sum(len((CHAPTERS_DIR / f"ch_{c:02d}.md").read_text().split()) for c in range(1, 20))
-    
+    ch_files = sorted(CHAPTERS_DIR.glob("ch_*.md"))
+    total_wc = sum(len(f.read_text().split()) for f in ch_files)
+
+    # Build premise from seed + canon
+    premise_source = seed_text[:500] if seed_text else "(No seed.txt found)"
+
     # Assemble
-    full = f"""# THE SECOND SON OF THE HOUSE OF BELLS
+    full = f"""# {title.upper()}
 ## Full-Arc Summary for Reader Panel
 
 This document contains chapter summaries, opening/closing passages,
-and key dialogue for all 23 chapters. Total novel: {total_wc:,} words.
+and key dialogue. Total novel: {total_wc:,} words.
 
-PREMISE: In Cantamura, a city where law is sung into binding through
-specific musical intervals, 14-year-old Cass Bellwright can hear when
-someone is lying -- a quarter-tone between F and F-sharp that causes
-him physical pain. His older brother Perin has been bound to service
-in the House of Corda for 10 years through a contract their father
-allowed. The bells their family maintains contain a secret: a question
-("Do you consent to be bound?") embedded in the sub-harmonics by the
-city's founder 200 years ago. No one has ever heard it. No one has
-ever answered. Every binding in Cantamura is technically void.
+PREMISE (from seed):
+{premise_source}
+
+CANON SUMMARY (from canon.md):
+{canon_text[:1500] if canon_text else "(No canon.md found)"}
 
 ---
 
