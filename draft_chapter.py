@@ -49,6 +49,19 @@ def extract_next_chapter_outline(outline_text, chapter_num):
     lines = next_entry.split('\n')[:10]
     return '\n'.join(lines)
 
+def extract_pov_character(chapter_outline_text):
+    """Extract the POV character name from the chapter outline entry."""
+    # Try inline format: ### Ch N: "Name" (POV: Name, ...)
+    match = re.search(r'\(POV:\s*([^,)]+)', chapter_outline_text)
+    if match:
+        return match.group(1).strip()
+    # Try block format: **POV:** Name
+    match = re.search(r'\*\*POV:\*\*\s*(.+)', chapter_outline_text)
+    if match:
+        return match.group(1).strip()
+    return "the POV character"
+
+
 def main():
     chapter_num = int(sys.argv[1])
     
@@ -62,6 +75,7 @@ def main():
     # Chapter-specific context
     chapter_outline = extract_chapter_outline(outline, chapter_num)
     next_chapter = extract_next_chapter_outline(outline, chapter_num)
+    pov_character = extract_pov_character(chapter_outline)
     
     # Previous chapter (if exists)
     prev_path = CHAPTERS_DIR / f"ch_{chapter_num - 1:02d}.md"
@@ -71,7 +85,7 @@ def main():
     else:
         prev_tail = "(first chapter -- no previous)"
     
-    prompt = f"""Write Chapter {chapter_num} of "The Second Son of the House of Bells."
+    prompt = f"""Write Chapter {chapter_num}.
 
 VOICE DEFINITION (follow this exactly):
 {voice}
@@ -93,16 +107,16 @@ CHARACTER REGISTRY (reference for speech patterns and behavior):
 
 WRITING INSTRUCTIONS:
 1. Write the COMPLETE chapter. Target ~3,200 words. Do not truncate or summarize.
-2. Third-person limited, past tense, locked to Cass's POV.
+2. Third-person limited, past tense, locked to {pov_character}'s POV.
 3. Hit ALL numbered beats from the outline in order.
 4. Plant ALL foreshadowing elements listed under "Plants."
-5. Show sensory detail: what Cass hears, smells, feels physically.
-6. The under-note causes specific physical pain (needle behind left eye, not vague discomfort).
+5. Show sensory detail: what {pov_character} hears, smells, feels physically.
+6. Sensory detail should be specific and physical — not vague or metaphorical.
 7. Dialogue follows the speech patterns defined in characters.md.
 8. No banned words from voice.md Part 1 guardrails.
 9. No AI fiction tells: no "a sense of," no "couldn't help but feel," no "eyes widened."
 10. Vary sentence length. Short sentences for impact. Longer ones to build.
-11. Metaphors from Cass's experience: sound, bronze, craft, the body's response to pitch.
+11. Metaphors from {pov_character}'s specific experience and background.
 12. Trust the reader. Don't explain what scenes mean. Let them land.
 13. Start the chapter in scene, not with exposition. End on a moment, not a summary.
 
