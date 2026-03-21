@@ -42,7 +42,7 @@ def main():
     old_path = BASE_DIR / "chapters" / f"ch_{ch_num:02d}.md"
     old_text = old_path.read_text() if old_path.exists() else "(no existing draft)"
     
-    prompt = f"""Rewrite Chapter {ch_num} of "The Second Son of the House of Bells."
+    prompt = f"""Rewrite Chapter {ch_num}. Follow the outline, voice, and world bible exactly.
 
 REVISION BRIEF (follow this exactly):
 {brief}

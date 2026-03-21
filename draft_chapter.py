@@ -137,7 +137,7 @@ PATTERNS TO AVOID (these have been flagged in previous chapters):
     paragraphs of similar length. Include at least one 1-2 sentence
     paragraph and one 6+ sentence paragraph.
 21. END the chapter differently from previous chapters. Do NOT end with
-    Cass outside listening to his father work. Find the ending that
+    a repeated structural beat from the previous chapter. Find the ending that
     belongs to THIS chapter specifically.
 22. INCLUDE at least one moment that surprises -- a character saying
     the wrong thing, an emotional beat arriving early or late, a detail
