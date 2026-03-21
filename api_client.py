@@ -109,27 +109,42 @@ def _call_openrouter(prompt, system, max_tokens, model):
 def call_model(prompt, system="", max_tokens=4000, model=None):
     """
     Call the configured LLM provider and return the response text.
+    Falls back through AUTONOVEL_FALLBACK_CHAIN on failure.
 
-    Args:
-        prompt:     User message content.
-        system:     Optional system prompt.
-        max_tokens: Maximum tokens to generate (default 4000).
-        model:      Model name; overrides AUTONOVEL_WRITER_MODEL env var.
-
-    Returns:
-        Response text as a string.
+    Primary: AUTONOVEL_PROVIDER + AUTONOVEL_WRITER_MODEL (or model arg)
+    Fallback: AUTONOVEL_FALLBACK_CHAIN (comma-separated list of
+              "provider:model" pairs, e.g.
+              "openrouter:x-ai/grok-4.1-fast,openrouter:minimax/minimax-m2.7")
     """
     provider = os.environ.get("AUTONOVEL_PROVIDER", "anthropic-key")
     resolved_model = _get_model(model)
 
-    if provider == "anthropic-key":
-        return _call_anthropic_key(prompt, system, max_tokens, resolved_model)
-    elif provider == "anthropic-oauth":
-        return _call_anthropic_oauth(prompt, system, max_tokens, resolved_model)
-    elif provider == "openrouter":
-        return _call_openrouter(prompt, system, max_tokens, resolved_model)
-    else:
-        raise ValueError(
-            f"Unknown AUTONOVEL_PROVIDER: {provider!r}. "
-            "Expected: anthropic-key, anthropic-oauth, openrouter"
-        )
+    attempts = [{"provider": provider, "model": resolved_model}]
+
+    # Build fallback chain from env
+    fallback_env = os.environ.get("AUTONOVEL_FALLBACK_CHAIN", "")
+    if fallback_env:
+        for entry in fallback_env.split(","):
+            entry = entry.strip()
+            if ":" in entry:
+                fb_provider, fb_model = entry.split(":", 1)
+                attempts.append({"provider": fb_provider.strip(), "model": fb_model.strip()})
+
+    last_error = None
+    for attempt in attempts:
+        p = attempt["provider"]
+        m = attempt["model"]
+        try:
+            if p == "anthropic-key":
+                return _call_anthropic_key(prompt, system, max_tokens, m)
+            elif p == "anthropic-oauth":
+                return _call_anthropic_oauth(prompt, system, max_tokens, m)
+            elif p == "openrouter":
+                return _call_openrouter(prompt, system, max_tokens, m)
+            else:
+                raise ValueError(f"Unknown provider: {p!r}")
+        except Exception as e:
+            print(f"[api_client] {p}:{m} failed: {e} — trying next fallback...")
+            last_error = e
+
+    raise RuntimeError(f"All providers failed. Last error: {last_error}")
