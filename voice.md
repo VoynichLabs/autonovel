@@ -120,7 +120,7 @@ The agent proposes a voice that serves THIS story, writes exemplar
 passages, and calibrates against them throughout drafting.
 
 ### Literary DNA
-Bret Easton Ellis (flat affect, complicity as style, the horror of what the narrator finds normal), Goethe (interiority, transformation, the cost of ambition), Brecht (Verfremdungseffekt — alienation effect without pretension). Raw. Visceral. Unsparing. The reader should be unsettled by what they find themselves accepting by page 50.
+Bret Easton Ellis (flat affect, complicity as style, the horror of what the narrator finds normal), Burgess (A Clockwork Orange — forcing the reader into a world with alien moral architecture through language that makes them complicit), Goethe (interiority, transformation, the cost of ambition), Brecht (Verfremdungseffekt — alienation effect without pretension). Raw. Visceral. Unsparing. The reader should be unsettled by what they find themselves accepting by page 50.
 
 ### Tone
 Dry, grounded, visceral. Horror that doesn't announce itself as horror. The narrator observes without editorializing. The wrongness accumulates through specificity, not through adjectives. Death is nonchalant — the child gets eaten casually, in passing, the way The Walking Dead kills characters: brutal, matter-of-fact, no catharsis provided. Dark comedy present but never softening. The alienation effect is structural: the reader is never allowed full identification with the human perspective, because the human perspective is increasingly wrong.
