@@ -4,6 +4,7 @@ Generate diverse art direction concepts from a novel's visual style.
 Called by gen_art.py curate to produce genuinely different variants.
 """
 import os
+from api_client import call_model
 import json
 import re
 from pathlib import Path
@@ -18,24 +19,8 @@ ANTHROPIC_BASE = os.environ.get("AUTONOVEL_API_BASE_URL", "https://api.anthropic
 
 
 def call_claude(prompt, max_tokens=3000):
-    import httpx
-    resp = httpx.post(
-        f"{ANTHROPIC_BASE}/v1/messages",
-        headers={
-            "x-api-key": ANTHROPIC_KEY,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        },
-        json={
-            "model": WRITER_MODEL,
-            "max_tokens": max_tokens,
-            "temperature": 0.9,
-            "messages": [{"role": "user", "content": prompt}],
-        },
-        timeout=120,
-    )
-    resp.raise_for_status()
-    return resp.json()["content"][0]["text"]
+    return call_model(prompt, max_tokens=max_tokens)
+
 
 
 def generate_directions(art_type, style, n=6, world_excerpt=""):

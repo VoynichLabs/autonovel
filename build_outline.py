@@ -80,9 +80,11 @@ JSON only, no other text."""
     # Load existing outline header info
     old_outline = (BASE_DIR / "outline.md").read_text()
     
-    # Build new outline
+    # Build new outline — derive title from seed.txt first line
+    seed_path = BASE_DIR / "seed.txt"
+    _seed_title = seed_path.read_text().strip().split('\n')[0].strip().lstrip('# ') if seed_path.exists() else "Untitled Novel"
     lines = []
-    lines.append("# THE SECOND SON OF THE HOUSE OF BELLS")
+    lines.append(f"# {_seed_title}")
     lines.append("## Chapter Outline (reflects actual novel as-written)")
     lines.append("")
     lines.append(f"**23 chapters, {sum(e['words'] for e in entries):,} words**")
