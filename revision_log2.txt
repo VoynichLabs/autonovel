@@ -181,3 +181,51 @@ NameError: name 'API_KEY' is not defined
     if not API_KEY:
            ^^^^^^^
 NameError: name 'API_KEY' is not defined
+
+  [19:27:51] Parsing review...
+  [19:27:51] RUN: uv run python review.py --parse
+    WARN: exit code 1
+    stderr: Traceback (most recent call last):
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 273, in <module>
+    main()
+  File "/Users/macmini/Documents/GitHub/autonovel/review.py", line 262, in main
+    if not API_KEY:
+           ^^^^^^^
+NameError: name 'API_KEY' is not defined
+
+
+  [19:27:51] Generating revision briefs from review...
+  [19:27:51] RUN: uv run python gen_brief.py --auto
+  [19:27:51] Revising Ch 18 from review brief...
+  [19:27:51] RUN: uv run python gen_revision.py 18 /Users/macmini/Documents/GitHub/autonovel/briefs/ch18_auto.md
+  [19:28:06] RUN: git add -A
+  [19:28:06] RUN: git commit -m "review round 4: revise ch18 from Opus feedback" --allow-empty
+  [19:28:06] RUN: git rev-parse --short HEAD
+  [19:28:06] GIT COMMIT: 4098b97 — review round 4: revise ch18 from Opus feedback
+  [19:28:06] Running mechanical cleanup pass...
+  [19:28:06] RUN: uv run python apply_cuts.py all --types OVER-EXPLAIN REDUNDANT --min-fat 15
+    WARN: exit code 2
+  [19:28:06] RUN: git add -A
+  [19:28:06] RUN: git commit -m "review round 4: mechanical cleanup" --allow-empty
+  [19:28:06] RUN: git rev-parse --short HEAD
+  [19:28:06] GIT COMMIT: c2d0aef — review round 4: mechanical cleanup
+  [19:28:06] Review round 4 complete.
+
+============================================================
+  OPUS REVIEW LOOP COMPLETE
+============================================================
+
+============================================================
+  REVISION COMPLETE — 3 cycles, novel_score 7.0
+============================================================
+
+============================================================
+  PIPELINE COMPLETE
+============================================================
+  Time:       0.1 hours
+  Phase:      export
+  Foundation: 8.0
+  Chapters:   21/21
+  Words:      36278
+  Novel:      7.0
+  Cycles:     3
