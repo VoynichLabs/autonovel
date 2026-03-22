@@ -140,3 +140,28 @@
 - When addressing humans, squids close their extra eyes — leaving one open. Deliberate. A power display that also makes communication possible.
 - Bioluminescent displays are incomprehensibly fast to unimplanted humans. Post-implant, humans begin to catch fragments.
 - To unimplanted humans: terrifying giants. To implanted humans: terrifying giants who are starting to make sense.
+
+---
+
+## THE WIDER HUMAN SITUATION
+
+The three POV characters are NOT representative of the typical human response to captivity. They are the outliers — the ones who, for very different reasons, are the least interested in escape.
+
+- **Raj** adapts. He leans in. He's relieved to stop being human.
+- **Irina** studies. Her response to captivity is to understand it, not flee it.
+- **Xi Pei** calculates. He's deciding when his knowledge becomes leverage. Escape isn't the play.
+
+Most captured humans react the way any 2026 human would: **total panic, desperate escape attempts, psychological breakdown.** These are modern people — they had jobs, phones, apartments, Tuesday. Then they woke up paralyzed inside biological tubes being studied by forty-foot cephalopods. Most of them are screaming. Some have gone catatonic. Several have been eaten.
+
+### PIETER (POV — to be introduced)
+- **Role:** The escape-focused human. The one who will not stop trying to get home.
+- **Background:** [TBD — should be someone with survival instincts, practical skills, a life worth going back to]
+- **Arc:** Counterpoint to the three main POVs. While Raj adapts, Irina studies, and Xi Pei waits — Pieter plans. He maps the vessel. He tests the membranes. He counts the cephalopods' patterns. He is thinking about home every single moment.
+- **Function:** Provides the "normal human response" that the reader identifies with. The reader SHOULD be thinking "why isn't anyone trying to escape?" — Pieter is the answer to that question. His arc will test whether escape is even possible, and what it costs.
+- **Contrast:** His desperation makes Raj's willing adaptation more disturbing. If the "sane" response is Pieter's panic, then Raj's calm acceptance is the real horror.
+
+### Other Humans (unnamed, background)
+- Thousands were captured. Most died during implantation.
+- Survivors who aren't kept by 0.3̅ are sold — as food, exotic pets, or specimens — at the black market wet market to crustaceans, insects, collectors.
+- Some are in the background of scenes — screaming in tubes, limp, catatonic, being led in bio-suits to places they don't understand.
+- They are modern 2026 humans. They don't know how they got here. They don't know where "here" is. They have no framework for any of this.

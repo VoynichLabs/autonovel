@@ -56,20 +56,28 @@ There is NO audible speech in cephalopod society. Zero. None.
 
 ## 4. HUMAN PERCEPTION OF CEPHALOPOD COMMUNICATION
 
-When humans receive cephalopod telepathy through their implants, it arrives as voices from their experience — disjointed, shifting, unpredictable.
+Cephalopod communication is mathematical bioluminescence + telepathy. It is completely, fundamentally incomprehensible to the human brain in its native form. What humans experience is NOT a translation — it's the brain desperately pattern-matching against its own memories to make sense of input that is catastrophically out of distribution.
 
-- **This is an involuntary translation artifact.** The cephalopods do not know this is happening. They are transmitting mathematical/bioluminescent content. The human brain, unable to process it natively, maps it onto emotional/linguistic templates drawn from the human's entire life experience.
-- **The voices are NOT fixed to one person.** They shift. A transmission might arrive as a grandmother's voice, then an old friend's, then a teacher's, then an ex's. The brain grabs whatever emotional template is closest to the *feeling* of what's being transmitted. Warmth = grandmother. Authority = father. Disapproval = PhD advisor. The mapping is emotional, not logical.
-- **Different cephalopods may tend toward different voice clusters** for a given human — 0.3̅ tends to arrive as warmth/family voices for Raj, but it's not a rigid lock. It's a tendency, not a rule.
-- **The content mismatches the voice.** That's the uncanny valley. Grandmother's warm voice saying "I am not going to lose a dorsal tentacle over this." The familiar voice delivering alien content is the disorientation.
-- **Pre-implant humans perceive nothing comprehensible.** Just overwhelming synesthesia — color, sound, taste, emotion, memory arriving simultaneously.
-- **Post-implant humans perceive fragments first, then increasing clarity.** The integration is gradual, not binary.
-- **"Generic voice from everywhere" is WRONG.** Every telepathic reception must be grounded in a specific voice from the human's experience — even if it shifts between transmissions.
+### The Mechanism
+- **The implant opens a channel.** The human brain receives raw cephalopod transmission — mathematical structures, geometric relationships, emotional harmonics encoded in calculus.
+- **The brain cannot process this natively.** So it does what brains do: it predicts. It reaches into the human's entire life experience — every voice they've heard, every conversation, every emotional moment — and assembles a best-guess rendering, token by token, the way an LLM predicts the next token. Except the training data is that specific human's memory, and the input is so far out of distribution that the output is fractured, disjointed, wrong in specific ways.
+- **The cephalopods have no idea this is happening.** They are transmitting precise mathematical content. They don't know it arrives as the human's dead grandmother arguing about dorsal tentacles.
 
-### Voice Tendencies (not locks)
-- **Raj** tends to hear 0.3̅ as warmth/family — grandmother most often, but also old friends, people who made him feel safe
-- **Irina** tends to hear 0.3̅ as authority/family — her older brother Aleksei most often, but also lab supervisors, professors
-- **Xi Pei** tends to hear transmissions through professional/institutional voices — line managers, factory directors, bureaucrats
+### What It Feels Like
+- **It's not hearing a voice.** It's senses, fragments, emotional textures reassembled into something almost-comprehensible. A fight between two cephalopods arrives as your parents fighting in the next room. Not because the content matches — because the emotional register (authority clashing with authority, someone in trouble) triggers that pattern in your memory.
+- **Voices shift constantly.** A single transmission might start as your grandmother and end as your ex-girlfriend. The brain is scrambling for templates and grabbing whatever's closest moment to moment.
+- **The content mismatches the voice.** That's the uncanny valley. Grandmother's warm voice saying "I am not going to lose a dorsal tentacle over this." Your brother's voice discussing the square root of magenta. The familiar delivering the alien.
+- **Pre-implant: total synesthesia.** Color, sound, taste, emotion, memory arriving simultaneously. Incomprehensible noise.
+- **Post-implant: fragments first, then increasing (but never complete) clarity.** The integration is gradual. Humans get better at parsing the signal, but it never becomes clean. The pattern-matching just gets faster, the fragments larger.
+- **Chapter 1 is the template.** Two cephalopods arguing registers as Raj's parents fighting. His mother's voice pleads. His ex-girlfriend responds about dorsal tentacles. This is HOW it works — always grounded in the specific human's memory, always disjointed, always wrong in the details.
+
+### Voice Tendencies (fluid, not fixed)
+- **Raj** — warmth/family voices dominate: grandmother most often, but old friends, people who made him feel safe. As he integrates further, the voices stabilize somewhat — Grandma becomes his primary channel for 0.3̅.
+- **Irina** — authority/competence voices: her older brother Aleksei, lab supervisors, professors. Her brain maps cephalopod communication onto professional/institutional templates because that's her dominant mode.
+- **Xi Pei** — institutional/bureaucratic voices: line managers, factory directors, Party officials. His brain has been trained by years in hierarchical systems to parse authority signals.
+
+### Critical Rule
+- **"Generic voice from everywhere" is WRONG.** Every telepathic reception must be grounded in specific voices from the human's experience — disjointed, shifting, but always from THEIR memories. Never a neutral narrator voice. Never a PA announcement. Always someone they knew.
 
 ---
 
