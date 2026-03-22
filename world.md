@@ -168,3 +168,38 @@ The devices (iPhones, Samsungs, whatever was in their pockets) came with them. T
 - **Misunderstood intelligence:** Cephalopods dismiss human culture and technology as irrelevant artifacts of a lesser mind. They are wrong, but their wrongness is entirely coherent within their framework.
 - **Ethical ambiguity without resolution:** 0.3̅ is the most sympathetic cephalopod in the story. She is also doing something monstrous. Both are true. The story does not resolve this.
 - **The dystopia that doesn't know it's a dystopia:** From inside cephalopod culture, everything 0.3̅ is doing is eccentric but comprehensible. "Let's perfect you." The horror is in the warmth.
+
+---
+
+## THE TERRARIUM
+
+0.3̅'s primary holding environment for her human specimens. A sealed biological dome — grown, not built — aboard her vessel. From the outside it's a transparent enclosure in her workspace. From the inside it's the humans' entire world.
+
+### Physical Description
+- A large glass-like biological dome, big enough to hold dozens of humans comfortably
+- Filled with air (not fluid) — this is a habitat designed for air-breathing specimens
+- Contains artifacts and structures 0.3̅ has grown for the humans: platforms, nesting areas, objects to manipulate, stimulation devices — enrichment, the way a good zoo designs enclosures
+- Visible from 0.3̅'s main workspace. She can observe them at any time. They are always observed.
+- The dome membrane is selectively permeable — she can reach a tentacle through it to extract a specimen without opening the whole enclosure
+
+### 0.3̅'s Routine
+- She examines them individually: picks one up (carefully, the way you'd handle a hamster), inspects their implant growth, checks neural integration, makes small adjustments or additions
+- She puts them back when she's done
+- She watches how they interact with each other and with the artifacts she provides — every interaction is data
+- She rotates the artifacts periodically to observe novel responses
+- She takes notes (bioluminescent/telepathic data recording, not written)
+
+### The Culling
+- Not all humans in the terrarium are permanent residents
+- She gives some away — to colleagues, to other researchers
+- She sells some at the wet market — as food, pets, specimens
+- She keeps the ones that interest her most
+- The remaining humans can observe when someone is removed and doesn't come back. They don't know what happened. Some guess. Some choose not to.
+
+### Human Social Dynamics Inside the Terrarium
+- The humans form their own social structures inside the enclosure — alliances, conflicts, hierarchies, dependencies
+- Some cooperate. Some fight. Some withdraw. Some go catatonic.
+- Language barriers exist — these are people from all over Earth, 2026, grabbed without pattern. They don't all speak the same language.
+- They can see 0.3̅ observing them. They can see her reach in. They know they're specimens.
+- The terrarium is where the POV characters interact with each other between their individual encounters with 0.3̅
+- Pieter (the escape-focused character) is testing the dome membrane, mapping the vessel's rhythms, looking for patterns. The terrarium is his cage and his recon platform.
