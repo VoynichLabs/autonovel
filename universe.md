@@ -4,15 +4,26 @@ These are the laws of this universe. They cannot be broken by any character, any
 
 ---
 
-## 1. AQUATIC ENVIRONMENT
+## 1. ENVIRONMENT & CASTES
 
-The cephalopod world is aquatic. Their vessels, stations, cities, and social spaces are filled with fluid. Air is the exception, not the rule.
+The universe is vast and diverse. Different species occupy different environmental niches. The caste system is defined by environment.
 
-- **Default state is submerged.** If a scene is set in cephalopod space, characters are in fluid unless explicitly stated otherwise (e.g., a dry terrarium built specifically for human specimens).
-- **Humans cannot breathe in cephalopod spaces without bio-suits.** The fleshy appendage suits grown onto their bodies include respiratory function. Without them, humans drown.
-- **There are no dry corridors, dry floors, or walkable hallways** in cephalopod vessels or stations. Locomotion in fluid is drift, swim, or be carried by current. Humans in bio-suits move through fluid, not air.
+### Caste Hierarchy
+1. **Aquatic cephalopods** — the highest elite. Strictly ocean-dwelling. They consider their existence superior to all other forms. The ruling class, the intellectuals, the old money. They do not leave the water. Ever.
+2. **Amphibious cephalopods** (like 0.3̅) — the middle caste. Can operate in both aquatic and transitional environments. Respected but not elevated. They handle operations that require crossing environmental boundaries. Our protagonist is amphibious — this is important for her mobility and her access to places the aquatic elite would never go.
+3. **Land-dwelling species** — the lowest caste. Crustaceans, insects, and other terrestrial species. Marginalized, considered effectively disabled by aquatic standards. They make up the labor class, the markets, the rough edges of civilization.
+
+### Aquatic Spaces (cephalopod vessels, elite spaces)
+- **Default state is submerged.** If a scene is set in a cephalopod vessel or elite space, characters are in fluid unless explicitly stated otherwise (e.g., a dry terrarium built specifically for human specimens).
+- **Humans cannot breathe in aquatic cephalopod spaces without bio-suits.** The fleshy appendage suits grown onto their bodies include respiratory function. Without them, humans drown.
+- **There are no dry corridors, dry floors, or walkable hallways** in aquatic cephalopod vessels or stations. Locomotion in fluid is drift, swim, or be carried by current.
 - **"Stepping into a pool"** is backwards. The pool is the default. A dry pocket would be the anomaly requiring explanation.
 - **Gravity behaves differently in fluid.** Things don't fall. They drift. Objects don't sit on surfaces — they settle, are tethered, or float in suspension.
+
+### Transitional & Land Spaces (markets, lower-caste areas)
+- Amphibious cephalopods like 0.3̅ can access land-based or transitional environments — wet markets, trading posts, mixed-caste zones.
+- These spaces may be partially submerged, misted, or environmentally mixed. They are not clean, dry, human-comfortable spaces — they're rough, biological, chaotic.
+- Land-dwelling crustaceans and insects operate in these zones. This is where illegal trade happens.
 
 ---
 
@@ -45,19 +56,20 @@ There is NO audible speech in cephalopod society. Zero. None.
 
 ## 4. HUMAN PERCEPTION OF CEPHALOPOD COMMUNICATION
 
-When humans receive cephalopod telepathy through their implants, it arrives as the voices of people they know and love.
+When humans receive cephalopod telepathy through their implants, it arrives as voices from their experience — disjointed, shifting, unpredictable.
 
-- **This is an involuntary translation artifact.** The cephalopods do not know this is happening. They are transmitting mathematical/bioluminescent content. The human brain, unable to process it natively, maps it onto the closest emotional/linguistic template: a parent, a sibling, a grandmother, an ex-lover.
-- **The voice is consistent per cephalopod per human.** If Raj hears 0.3̅ as his grandmother, he ALWAYS hears 0.3̅ as his grandmother. It does not change chapter to chapter.
-- **The content mismatches the voice.** That's the uncanny valley. Grandmother's warm voice saying "I am not going to lose a dorsal tentacle over this." The familiar voice delivering alien content is the horror of the translation.
+- **This is an involuntary translation artifact.** The cephalopods do not know this is happening. They are transmitting mathematical/bioluminescent content. The human brain, unable to process it natively, maps it onto emotional/linguistic templates drawn from the human's entire life experience.
+- **The voices are NOT fixed to one person.** They shift. A transmission might arrive as a grandmother's voice, then an old friend's, then a teacher's, then an ex's. The brain grabs whatever emotional template is closest to the *feeling* of what's being transmitted. Warmth = grandmother. Authority = father. Disapproval = PhD advisor. The mapping is emotional, not logical.
+- **Different cephalopods may tend toward different voice clusters** for a given human — 0.3̅ tends to arrive as warmth/family voices for Raj, but it's not a rigid lock. It's a tendency, not a rule.
+- **The content mismatches the voice.** That's the uncanny valley. Grandmother's warm voice saying "I am not going to lose a dorsal tentacle over this." The familiar voice delivering alien content is the disorientation.
 - **Pre-implant humans perceive nothing comprehensible.** Just overwhelming synesthesia — color, sound, taste, emotion, memory arriving simultaneously.
 - **Post-implant humans perceive fragments first, then increasing clarity.** The integration is gradual, not binary.
-- **"Generic voice from everywhere" is WRONG.** If cephalopod communication is described without specifying whose voice the human hears it in, the scene is broken.
+- **"Generic voice from everywhere" is WRONG.** Every telepathic reception must be grounded in a specific voice from the human's experience — even if it shifts between transmissions.
 
-### Locked Voice Assignments
-- **Raj** hears 0.3̅ as: his grandmother ("Grandma")
-- **Irina** hears 0.3̅ as: her older brother Aleksei. Always Aleksei. Not her sister (she doesn't have one), not her mother.
-- **Xi Pei** hears 0.3̅ as: [to be determined — should be someone from his past, consistent throughout]
+### Voice Tendencies (not locks)
+- **Raj** tends to hear 0.3̅ as warmth/family — grandmother most often, but also old friends, people who made him feel safe
+- **Irina** tends to hear 0.3̅ as authority/family — her older brother Aleksei most often, but also lab supervisors, professors
+- **Xi Pei** tends to hear transmissions through professional/institutional voices — line managers, factory directors, bureaucrats
 
 ---
 
@@ -85,13 +97,26 @@ Humans who survive implantation and are kept as specimens/pets are modified to i
 
 ---
 
-## 7. SOCIAL PHYSICS
+## 7. SOCIAL PHYSICS & THE WIDER UNIVERSE
 
-- **Humans are vermin.** The moral weight of a human to a cephalopod is equivalent to a mouse to a human. Eating humans is unremarkable — the moral equivalent of eating turkey.
-- **Keeping humans as pets is taboo** — not because of cruelty concerns, but because of the social stigma of attachment to vermin. It's eccentric at best, delusional at worst.
-- **Cephalopod society has castes:** Aquatic (highest, ruling), Amphibious (mid, land operations), Land-dwelling (lowest, marginalized/disabled).
-- **The wider universe contains other intelligent species, including advanced humanoid civilizations.** Humans specifically are vermin. Not all primates, not all species — humans.
-- **0.3̅'s research is illegal.** She is a rogue scientist operating outside sanctioned channels. Her vessel is unlicensed. Her specimens are contraband.
+### Humans in the Hierarchy
+- **Humans are the lowest of the low among primates.** There are other primate/humanoid species in the universe that are significantly more advanced — some are semi-telepathic, some show clear signs of higher-level sentience. If cephalopod society were ever going to accept that primates might be more than vermin, the candidates would be these more advanced humanoid species, not humans.
+- **Humans are vermin among vermin.** The moral weight of a human to a cephalopod is equivalent to a mouse to a human. Eating them is unremarkable — the moral equivalent of eating turkey.
+- **Keeping humans as pets is eccentric and taboo** — not criminal, just socially embarrassing. Attachment to vermin. Like a person who keeps rats and talks to them.
+
+### 0.3̅'s Status
+- **0.3̅ is a rogue, not a villain.** What she's doing is technically illegal — harvesting from a nature preserve, keeping contraband specimens — but it's not high-priority prosecution. It's the kind of crime that's beneath serious enforcement attention. She's an outlaw, an eccentric researcher operating in gray zones, not a fugitive from justice.
+- **She operates an unlicensed vessel.** Her specimens are contraband. She sells some of the humans she captures on the black market to fund her research.
+
+### The Black Market
+- **There is an interspecies black market** — a wet market for illegal goods, exotic specimens, bushmeat, contraband biologicals. Think of it as an international bazaar operating in transitional/land-caste zones.
+- **0.3̅ takes some of her captured humans here.** The ones she doesn't keep get sold — as food, as exotic pets, as specimens — to crustaceans, insects, land-dwelling species, collectors, whoever's buying.
+- **Not all captured humans stay with 0.3̅.** Only the three POV characters (and possibly a few others) survive through the novel. The rest are sold off, eaten, or die during implantation. The three are special because they survived and because 0.3̅ chose to keep them.
+
+### Other Species
+- **The universe contains many intelligent species.** Cephalopods are dominant but not alone. Advanced humanoid civilizations exist — some semi-telepathic, some technologically sophisticated in ways different from both humans and cephalopods.
+- **Crustaceans, insects, and other land/amphibious species** populate the lower castes and the market zones. They are customers, traders, laborers.
+- **Earth is a backwater nature preserve.** It's not important. It's not special. It's a minor protected zone in a vast galaxy. The ban on removing specimens exists the way poaching laws exist — real, but enforcement is spotty and the penalties aren't severe enough to deter someone like 0.3̅.
 
 ---
 
